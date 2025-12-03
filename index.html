@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Delivery de Pescados</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <span class="logo" aria-hidden="true"
+          ><img src="/src/images/logo.png" width="50px" alt="logo farol do mar"
+        /></span>
+        <span class="brand-text">Farol Do Mar Delivery</span>
+      </div>
+      <nav class="nav">
+        <a href="#home" class="nav-link">Início</a>
+        <a href="#menu" class="nav-link">Cardápio</a>
+        <a href="#cart" class="nav-link"
+          >Carrinho <span id="cart-count" class="chip">0</span></a
+        >
+        <a href="#checkout" class="nav-link">Finalização</a>
+        <a href="#order" class="nav-link">Acompanhar</a>
+        <a href="#support" class="nav-link">Contato</a>
+        <a href="#login" class="nav-link" id="user-link">Entrar</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Abrir menu">☰</button>
+    </header>
+
+    <main id="app" class="app"></main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div>© <span id="year"></span> Farol Do Mar Delivery</div>
+        <div>Funcionamento: Seg–Sáb 8h–17h • Domingo 8h–14h</div>
+      </div>
+    </footer>
+
+    <script defer src="/src/app.js"></script>
+  </body>
+</html>
