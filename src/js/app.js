@@ -22,13 +22,13 @@ const fishes = [
     id: "tambaqui",
     name: "Tambaqui",
     price: 49.9,
-    img: "/src/images/tambaqui.jpeg",
+    img: "../images/tambaqui.jpeg",
   },
   {
     id: "tilapia",
     name: "Tilápia",
     price: 29.9,
-    img: "/src/images/tilapia-preparo-848x477.jpg",
+    img: "../images/tilapia-preparo-848x477.jpg",
   },
   {
     id: "pescada-amarela",
