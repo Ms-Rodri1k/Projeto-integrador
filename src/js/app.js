@@ -22,13 +22,13 @@ const fishes = [
     id: "tambaqui",
     name: "Tambaqui",
     price: 49.9,
-    img: "/src/public/tambaqui.jpeg",
+    img: "https://www.receiteria.com.br/wp-content/uploads/tambaqui-assado.jpeg",
   },
   {
     id: "tilapia",
     name: "Tilápia",
     price: 29.9,
-    img: "/src/public/tilapia-preparo-848x477.jpg",
+    img: "https://static.poder360.com.br/2025/02/tilapia-preparo-848x477.jpg",
   },
   {
     id: "pescada-amarela",
