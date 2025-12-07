@@ -19,7 +19,8 @@ body {
 }
 body {
   margin: 0;
-  background: linear-gradient(180deg, #0b1225 0%, #0f172a 50%, #0b1225 100%);
+  background: linear-gradient(180deg, #1C2C40 0%, #0f172aec 70%, #1C2C40 100%);
+  background-attachment: fixed;
   color: var(--text);
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
     "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
